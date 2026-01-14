@@ -1,64 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF 8">
+    <meta name="viewport" content="width=device width, initial scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="sidebar">
-        <div class="dashboard">
-            <div class="dashboard-icon"></div>
-            <div class="dashboard-text">Dashboard</div>
+        <img src="../assets/icons/view-dashboard.svg" class="dashboard icon">
+        <div class="dashboard text">Dashboard</div>
+        <img src="..\assets\icons\home.svg" class="home icon">
+        <div class="home text">Home</div>
+        <img src="..\assets\icons\card-account-details-outline.svg" class="profile icon">
+        <div class="profile text">Profile</div>
+        <img src="..\assets\icons\message-reply.svg" class="messages icon">
+        <div class="messages text">Messages</div>
+        <img src="..\assets\icons\clock-time-three.svg" class="history icon">
+        <div class="history text">History</div>
+        <img src="..\assets\icons\file-multiple.svg" class="tasks icon">
+        <div class="tasks text">Tasks</div>
+        <img src="..\assets\icons\account-group.svg" class="communities icon">
+        <div class="communities text">Communities</div>
+        <div class="gap icon 2"></div>
+        <div class="gap text 2"></div>
+        <img src="..\assets\icons\cog.svg" class="settings icon">
+        <div class="settings text">Settings</div>
+        <img src="..\assets\icons\help-box.svg" class="support icon">
+        <div class="support text">Support</div>
+        <img src="..\assets\icons\shield-check.svg" class="privacy icon">
+        <div class="privacy text">Privacy</div>
+    </div>
+    <div class="header">
+        <div class="search">
+            <img src="..\assets\icons\magnify.svg" class="search icon">
+            <div class="search bar"></div>
         </div>
-        <div class="home">
-            <div class="home-icon"></div>
-            <div class="home-text">Home</div>
+        <div class="account">
+            <div class="gap"></div>
+            <img src="..\assets\icons\bell-ring-outline.svg" class="notification icon">
+            <div class="account icon"></div>
+            <h3 class="account text">Morgan Oakley</h3>
         </div>
-        <div class="profile">
-            <div class="profile-icon"></div>
-            <div class="profile-text">Profile</div>
+        <div class="welcome">
+            <div class="welcome icon"></div>
+            <h5 class="welcome text 1">Hi there,</h5>
+            <h2 class="welcome text 2">Morgan Oakley (@morgan)</h2>
         </div>
-        <div class="messages">
-            <div class="messages-icon"></div>
-            <div class="messages-text">Messages</div>
-        </div>
-        <div class="history">
-            <div class="history-icon"></div>
-            <div class="history-text">History</div>
-        </div>
-        <div class="tasks">
-            <div class="tasks-icon"></div>
-            <div class="tasks-text">Tasks</div>
-        </div>
-        <div class="communities">
-            <div class="communities-icon"></div>
-            <div class="communities-text">Communities</div>
-        </div>
-        <div class="settings">
-            <div class="settings-icon"></div>
-            <div class="settings-text">Settings</div>
-        </div>
-        <div class="support">
-            <div class="support-icon"></div>
-            <div class="support-text">Support</div>
-        </div>
-        <div class="privacy">
-            <div class="privacy-icon"></div>
-            <div class="privacy-text">Privacy</div>
+        <div class="buttons">
+            <button class="new">New</button>
+            <button class="upload">Upload</button>
+            <button class="share">Share</button>
         </div>
     </div>
-    <div class="header"></div>
     <div class="main-content">
-        <div class="project"></div>
-        <div class="project"></div>
-        <div class="announcements"></div>
-        <div class="project"></div>
-        <div class="project"></div>
-        <div class="project"></div>
-        <div class="project"></div>
-        <div class="trending"></div>
+        <div class="projects">
+            <h3>Your Projects</h3>
+            <div class="project">
+                <div class="project content">
+                    <h4 class="project title">Super Cool Project</h4>
+                    <p class="project text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, odit dolorem illo non dolor fugiat adipisci obcaecati deleniti, necessitatibus aspernatur tempora nam, debitis fugit exercitationem recusandae placeat earum? Dolores, adipisci!</p>
+                </div>
+                <div class="project icons">
+                    <img src="..\assets\icons\star-plus-outline.svg" class="project star icon">
+                    <img src="..\assets\icons\eye-plus-outline.svg" class="project eye icon">
+                    <img src="..\assets\icons\source-fork.svg" class="project fork icon">
+                </div>
+            </div>
+            <div class="project">
+                <div class="project content">
+                    <h4 class="project title">Less Cool Project</h4>
+                    <p class="project text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, odit dolorem illo non dolor fugiat adipisci obcaecati deleniti, necessitatibus aspernatur tempora nam, debitis fugit exercitationem recusandae placeat earum? Dolores, adipisci!</p>
+                </div>
+                <div class="project icons">
+                    <img src="..\assets\icons\star-plus-outline.svg" class="project star icon">
+                    <img src="..\assets\icons\eye-plus-outline.svg" class="project eye icon">
+                    <img src="..\assets\icons\source-fork.svg" class="project fork icon">
+                </div>
+            </div>
+            <div class="project">
+                <div class="project content">
+                    <h4 class="project title">Impossible App</h4>
+                    <p class="project text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, odit dolorem illo non dolor fugiat adipisci obcaecati deleniti, necessitatibus aspernatur tempora nam, debitis fugit exercitationem recusandae placeat earum? Dolores, adipisci!</p>
+                </div>
+                <div class="project icons">
+                    <img src="..\assets\icons\star-plus-outline.svg" class="project star icon">
+                    <img src="..\assets\icons\eye-plus-outline.svg" class="project eye icon">
+                    <img src="..\assets\icons\source-fork.svg" class="project fork icon">
+                </div>
+            </div>
+            <div class="project">
+                <div class="project content">
+                    <h4 class="project title">Easy Peasy App</h4>
+                    <p class="project text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, odit dolorem illo non dolor fugiat adipisci obcaecati deleniti, necessitatibus aspernatur tempora nam, debitis fugit exercitationem recusandae placeat earum? Dolores, adipisci!</p>
+                </div>
+                <div class="project icons">
+                    <img src="..\assets\icons\star-plus-outline.svg" class="project star icon">
+                    <img src="..\assets\icons\eye-plus-outline.svg" class="project eye icon">
+                    <img src="..\assets\icons\source-fork.svg" class="project fork icon">
+                </div>
+            </div>
+            <div class="project">
+                <div class="project content">
+                    <h4 class="project title">Ad Blocker</h4>
+                    <p class="project text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, odit dolorem illo non dolor fugiat adipisci obcaecati deleniti, necessitatibus aspernatur tempora nam, debitis fugit exercitationem recusandae placeat earum? Dolores, adipisci!</p>
+                </div>
+                <div class="project icons">
+                    <img src="..\assets\icons\star-plus-outline.svg" class="project star icon">
+                    <img src="..\assets\icons\eye-plus-outline.svg" class="project eye icon">
+                    <img src="..\assets\icons\source-fork.svg" class="project fork icon">
+                </div>
+            </div>
+            <div class="project">
+                <div class="project content">
+                    <h4 class="project title">Money Maker</h4>
+                    <p class="project text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, odit dolorem illo non dolor fugiat adipisci obcaecati deleniti, necessitatibus aspernatur tempora nam, debitis fugit exercitationem recusandae placeat earum? Dolores, adipisci!</p>
+                </div>
+                <div class="project icons">
+                    <img src="..\assets\icons\star-plus-outline.svg" class="project star icon">
+                    <img src="..\assets\icons\eye-plus-outline.svg" class="project eye icon">
+                    <img src="..\assets\icons\source-fork.svg" class="project fork icon">
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="announcements">
+                <h3>Announcements</h3>
+                <div class="announcement card">
+                    <div class="announcement content">
+                        <h3 class="announcement title">Site Maintenance</h3>
+                        <p class="announcement text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, recusandae itaque? Ipsam ipsum nihil tempore, soluta, possimus ullam</p>
+                    </div>
+                    <div class="announcement content">
+                        <h3 class="announcement title">Community Share Day</h3>
+                        <p class="announcement text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, recusandae itaque? Ipsam ipsum nihil tempore, soluta, possimus ullam</p>
+                    </div>
+                    <div class="announcement content">
+                        <h3 class="announcement title">Updated privacy Policy</h3>
+                        <p class="announcement text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, recusandae itaque? Ipsam ipsum nihil tempore, soluta, possimus ullam</p>
+                    </div>
+                </div>
+            </div>
+            <div class="trending">
+                <h3>Trending</h3>
+                <div class="trending card">
+                    <div class="trending content">
+                        <div class="trending icon-1"></div>
+                        <div class="trending text">
+                            <p class="trending main-text">@tegan</p>
+                            <p class="trending sub-text">World Peace Builder</p>
+                        </div>
+                    </div>
+                    <div class="trending content">
+                        <div class="trending icon-2"></div>
+                        <div class="trending text">
+                            <p class="trending main-text">@morgan</p>
+                            <p class="trending sub-text">Super Cool Project</p>
+                        </div>
+                    </div>
+                    <div class="trending content">
+                        <div class="trending icon-3"></div>
+                        <div class="trending text">
+                            <p class="trending main-text">@kendall</p>
+                            <p class="trending sub-text">Life Changing App</p>
+                        </div>
+                    </div>
+                    <div class="trending content">
+                        <div class="trending icon-4"></div>
+                        <div class="trending text">
+                            <p class="trending main-text">@alex</p>
+                            <p class="trending sub-text">No Traffic Maker</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     
     
