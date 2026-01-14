@@ -61,6 +61,7 @@ This project is meant to be a practice website.
 ### Built With
 
 * ![HTML][HTML shield]
+* ![CSS][CSS shield]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,3 +126,4 @@ Project Link: [https://github.com/TalhaAgro/Admin-Dashboard](https://github.com/
 [license-shield]: https://img.shields.io/github/license/TalhaAgro/Admin-Dashboard.svg?style=for-the-badge
 [license-url]: https://github.com/TalhaAgro/Admin-Dashboard/blob/master/LICENSE.txt
 [HTML shield]: https://img.shields.io/badge/HTML-3670A0
+[CSS shield]: https://img.shields.io/badge/CSS-8A2BE2
